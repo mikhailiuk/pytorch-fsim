@@ -38,7 +38,7 @@ print(loss)
 ```
 
 ## Optimizing 
-```
+```python
 # Path to reference image
 img1_path ='./misc/mandril_color.tif'
 # Is it black and white?
