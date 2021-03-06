@@ -9,6 +9,17 @@ Differentiable implementation of the Feature Similarity Index Measure in Pytorch
 
 ## Computing score
 ```python
+import imageio
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+import torch as pt
+from torch.autograd import Variable
+from torch import optim
+from fsim import FSIM, FSIMc
+from PIL import Image, ImageDraw, ImageFont
+import os
+
 # Path to reference image
 img1_path ='./misc/mandril_color.tif'
 # Is it black and white?
@@ -39,6 +50,17 @@ print(loss)
 
 ## Optimizing 
 ```python
+import imageio
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+import torch as pt
+from torch.autograd import Variable
+from torch import optim
+from fsim import FSIM, FSIMc
+from PIL import Image, ImageDraw, ImageFont
+import os
+
 # Path to reference image
 img1_path ='./misc/mandril_color.tif'
 # Is it black and white?
