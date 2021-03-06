@@ -8,7 +8,7 @@ Differentiable implementation of the Feature Similarity Index Measure in Pytorch
 # Basic usage
 
 ## Computing score
-```
+```python
 # Path to reference image
 img1_path ='./misc/mandril_color.tif'
 # Is it black and white?
