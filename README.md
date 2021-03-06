@@ -8,7 +8,7 @@ Differentiable implementation of the Feature Similarity Index Measure in Pytorch
 # Basic usage
 
 ## Computing score
-`
+```
 # Path to reference image
 img1_path ='./misc/mandril_color.tif'
 # Is it black and white?
@@ -35,10 +35,10 @@ if pt.cuda.is_available():
 FSIM_loss = FSIMc()
 loss = FSIM_loss(img1b,img2b)    
 print(loss)
-`
+```
 
 ## Optimizing 
-`
+```
 # Path to reference image
 img1_path ='./misc/mandril_color.tif'
 # Is it black and white?
@@ -79,7 +79,7 @@ for ii in range(0,1000):
     loss = pt.sum(loss)
     loss.backward()
     optimizer.step()
-`
+```
 
 # References
 The code is the direct implementation of the MATLAB version provided by:
