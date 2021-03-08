@@ -49,6 +49,8 @@ print(loss)
 ```
 
 ## Optimizing 
+Note: recovering reference image from the Gaussian noize is challenging and requires regularization. More on that in this [paper](https://link.springer.com/article/10.1007/s11263-020-01419-7).
+
 ```python
 import imageio
 import numpy as np
